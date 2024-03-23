@@ -1,11 +1,13 @@
 <script>
-  import Test from './components/test.svelte'
+  import Header from "./components/Header.svelte";
+  import Footer from "./components/Footer.svelte";
 </script>
 
 <main>
-  <div class="grid place-items-center bg-red-200 h-screen w-full">
-    <Test />
+  <Header />
+  <div class="grid place-items-center bg-red-200 h-[80dvh] w-full">
   </div>
+  <Footer />
 </main>
 
 <style>
